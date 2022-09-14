@@ -50,15 +50,43 @@ public class Main {
             System.out.print(MyMass2[i] + " ");
         }
         System.out.println();
+        for(int i = MyMass2.length-1 ; i > 0 ; i--){
+            for(int j = 0 ; j < i ; j++){
+
+                if( MyMass2[j] > MyMass2[j+1] ) {
+                    int tmp = MyMass2[j];
+                    MyMass2[j] = MyMass2[j + 1];
+                    MyMass2[j + 1] = tmp;
+                }
+            }
+        }
+        for (int i =0;i< MyMass2.length;i++){
+            System.out.print(MyMass2[i] + " ");
+        }
+        System.out.println();
         //---------------------------------------------------------------------------------
         // второй способ
         System.out.println("Second way way with class Random ");
         int[] MyMass3 = new int[10];
         Random random = new Random();
-        for (int i =0;i< MyMass2.length;i++){
+        for (int i =0;i< MyMass3.length;i++){
             MyMass3[i] = random.nextInt(255);
         }
-        for (int i =0;i< MyMass2.length;i++){
+        for (int i =0;i< MyMass3.length;i++){
+            System.out.print(MyMass3[i] + " ");
+        }
+        System.out.println();
+        for(int i = MyMass3.length-1 ; i > 0 ; i--){
+            for(int j = 0 ; j < i ; j++){
+
+                if( MyMass3[j] > MyMass3[j+1] ) {
+                    int tmp = MyMass3[j];
+                    MyMass3[j] = MyMass3[j + 1];
+                    MyMass3[j + 1] = tmp;
+                }
+            }
+        }
+        for (int i =0;i< MyMass3.length;i++){
             System.out.print(MyMass3[i] + " ");
         }
         System.out.println();
