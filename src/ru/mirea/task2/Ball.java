@@ -9,7 +9,7 @@ public class Ball {
         return rad;
     }
     public double BallVolume(float rad){
-        double v=(4/3)*3.14*rad*rad*rad;
+        double v=(1.33333)*3.14*(rad*rad*rad);
         return v;
     }
 

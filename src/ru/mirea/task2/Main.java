@@ -11,10 +11,8 @@ public class Main {
         System.out.println("Volume of 20 radius ball = " + r);
         //-------------------------------------------------------------------------
         Book book=new Book("Matveenko M.S." , "Money" );
-        System.out.println(book.ShowBook(book.Author,book.Name));
+        System.out.println(book.ShowBook(book.author,book.name));
         //-------------------------------------------------------------------------
-        Dog dog=new Dog("bobik",5);
-        System.out.println(dog.toString());
 
     }
 

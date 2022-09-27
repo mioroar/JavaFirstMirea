@@ -1,21 +1,29 @@
 package ru.mirea.task2;
 
 public class Book {
-    public String Author;
-    public String Name;
+    public String author;
+    public String name;
 
     public Book(String author, String name){
-        Author=author;
-        Name=name;
+        this.author=author;
+        this.name=name;
     }
 
-    public String getAut(String author) {
+    public String getAuthor(String author) {
         return author;
     }
 
     public String getName(String name) {
 
         return name;
+    }
+    public void setAuthor(String author) {
+        this.author=author;
+    }
+
+    public void setName(String name) {
+
+        this.name=name;
     }
 
     public String ShowBook(String author,String name) {
