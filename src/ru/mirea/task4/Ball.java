@@ -28,9 +28,9 @@ public class Ball {
         this.x=x;
         this.y=y;
     }
-    public void move(double xMove, double yMove){
-        x+=xMove;
-        y+=yMove;
+    public void move(double xDisp, double yDisp){
+        x+=xDisp;
+        y+=yDisp;
     }
     public String toString(){
         return String.format("Ball (%s, %s)",this.x,this.y);

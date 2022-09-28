@@ -3,12 +3,12 @@ package ru.mirea.task4;
 public class Author {
     private String name;
     private String email;
-    private char sex;
+    private char gender;
 
-    public Author(String name,String email, char sex){
+    public Author(String name,String email, char gender){
         this.name=name;
         this.email=email;
-        this.sex=sex;
+        this.gender=gender;
     }
     public String getName(){
         return name;
@@ -16,13 +16,16 @@ public class Author {
     public String getEmail(){
         return email;
     }
-    public char getSex(){
-        return sex;
+    public char getGender(){
+        return gender;
     }
     public void setEmail(String email){
         this.email=email;
     }
+    public void setGender(char gender){
+        this.gender=gender;
+    }
     public String toString(){
-        return String.format("Author - %s(%s), email - %s",name,sex,email);
+        return String.format("Author - %s(%s), email - %s",name,gender,email);
     }
 }

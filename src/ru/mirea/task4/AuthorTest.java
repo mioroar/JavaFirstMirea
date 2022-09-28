@@ -11,7 +11,7 @@ public class AuthorTest {
         x0.setEmail("SuperPuperDima@mail.ru");
         System.out.println(x1.getName());
         System.out.println(x2.getEmail());
-        System.out.println(x3.getSex());
+        System.out.println(x3.getGender());
         System.out.println(x0);
     }
 }

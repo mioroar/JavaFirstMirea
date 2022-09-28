@@ -3,8 +3,7 @@ package ru.mirea.task2;
 public class Main {
 
     public static void main(String[] args){
-        Shape shape=new Shape("Cube",1000,200);
-        System.out.println(shape);
+
         //-------------------------------------------------------------------------
         Ball ball=new Ball(20);
         double r= ball.BallVolume(ball.rad);
