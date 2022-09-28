@@ -7,6 +7,7 @@ public class HumanTest {
         Human.Head head=man.new Head("blue",1);
         Human.Leg legs=man.new Leg(42,true);
         System.out.println(man);
+        hands.setSize(45);
         System.out.println(hands);
         System.out.println(legs);
         System.out.println(head);
