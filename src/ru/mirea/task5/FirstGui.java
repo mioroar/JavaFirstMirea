@@ -21,12 +21,16 @@ public class FirstGui {
         JLabel label2 = new JLabel("Last Scorer: N/A ",JLabel.CENTER);
         JLabel label3 = new JLabel("Winner DRAW ",JLabel.RIGHT);
         frame.setPreferredSize(new Dimension(500,600));
-        panel.add(label1);
-        panel.add(label2);
-        panel.add(label3);
+        panel.add(label1,JLabel.VERTICAL);
+        panel.add(label2,JLabel.VERTICAL);
+        panel.add(label3,JLabel.VERTICAL);
 
         frame.getContentPane().add(panel);
         frame.pack();
+        int i=0;
+        //button1.addActionListener(() -> {
+         //   i++;
+        //});
         frame.setVisible(true);
 
 
