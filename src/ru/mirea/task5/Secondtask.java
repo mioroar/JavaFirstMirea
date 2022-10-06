@@ -1,4 +1,4 @@
 package ru.mirea.task5;
 
-public class Main {
+public class Secondtask {
 }
