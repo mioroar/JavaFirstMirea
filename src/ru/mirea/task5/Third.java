@@ -1,6 +1,8 @@
 package ru.mirea.task5;
 
 public class Third {
+    string background_image_path;
+    string animation_images_path = 
     public static void main(String[] args){
     MeApp app = new MyApp();
     if(args.length == 1){
