@@ -1,7 +1,14 @@
 package ru.mirea.task5;
 
-import javax.swing.*;
-
-public class Third extends JFrame {
-    private JLabel imgLabel;
+public class Third {
+    public static void main(String[] args){
+    MeApp app = new MyApp();
+    if(args.length == 1){
+        app.set_background_image_path(args[0]);
+    }
+    else if (args.length ==2){
+    app.set_background_image_path(args[0]);
+    app.set_animation_images_path(args[1]);
+    }
+    }
 }
